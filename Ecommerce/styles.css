@@ -1,0 +1,282 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+.nav1 {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  background-image: url(nav1.jpg);
+  background-size: cover;
+  padding: 10px;
+  color: white;
+  font-size: 20px;
+}
+.feature {
+  display: flex;
+}
+.feature .app {
+  display: flex;
+  margin-inline: 22px;
+}
+.feature .app i {
+  margin-inline: 8px;
+}
+.nav2 {
+  position: fixed;
+  top: 46px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  padding: 20px;
+  background-color: black;
+}
+.nav2 .page ul li img {
+  margin-left: 50px;
+  width: 120px;
+}
+.nav2 .input {
+  margin-left: 100px;
+  display: flex;
+}
+.nav2 .input button {
+  margin-inline: 22px;
+}
+.nav2 .input input {
+  width: 700px;
+  background-color: rgb(57, 57, 57);
+  border: 2px solid white;
+  border-color: white;
+  outline: none;
+  text-align: center;
+  font-size: 16px;
+  color: white;
+}
+.nav2 .input i {
+  justify-content: center;
+  width: 50px;
+  color: black;
+  align-items: center;
+  background-color: white;
+  text-align: center;
+  font-size: 30px;
+}
+.nav2 .login i {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  font-size: 30px;
+  color: white;
+}
+.nav2 .login button {
+  margin-top: 10px;
+  width: 180px;
+  background-color: transparent;
+  color: white;
+  font-size: 25px;
+  border: none;
+}
+.nav2 .login button:hover {
+  margin-top: 10px;
+  width: 180px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  color: black;
+  background-color: white;
+}
+.nav2 .logos ul li i {
+  margin-left: 80px;
+  margin-top: 10px;
+  text-align: center;
+  margin-inline: 20px;
+  color: white;
+  font-size: 30px;
+}
+.items {
+  position: fixed;
+  top: 140px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  padding: 15px;
+  background-color: rgb(36, 36, 36);
+  color: white;
+}
+.items ul li a {
+  margin-inline: 23px;
+  text-align: center;
+  font-size: 20px;
+  cursor: pointer;
+  transition: text-decoration 0.3s;
+}
+.items ul li a:hover {
+  color: rgb(248, 58, 153);
+}
+.items ul li {
+  list-style: none;
+}
+.home img {
+  margin-top: 190px;
+  height: 100vh;
+  width: 100%;
+}
+h2 {
+  padding: 20px;
+  color: white;
+  background-color: rgb(49, 49, 49);
+  text-decoration: solid;
+  text-align: center;
+}
+.card img {
+  border-radius: 25px;
+  margin-left: 335px;
+  margin-top: 5px;
+  height: 70vh;
+  width: 60%;
+}
+
+.products h3 {
+  text-align: center;
+  font-size: 20px;
+  margin: 0;
+  padding-top: 10px;
+}
+.products a {
+  text-decoration: none;
+}
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0;
+}
+.product1 {
+  width: 20%;
+  margin: 15px;
+  box-sizing: border-box;
+  float: left;
+  text-align: center;
+  border-radius: 20px;
+  cursor: pointer;
+  padding-top: 10px;
+  box-sizing: 0 14px 28px rgba(0, 0, 0, 0, 25), 0 10px 10px rgba(0, 0, 0, 0, 22);
+  transition: 0.4s;
+  background: #f2f2f2;
+}
+.product1:hover {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0, 16), 0 3px 6px rgba(0, 0, 0, 0, 23);
+  transform: translate(0px, -8px);
+}
+.product1 img {
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+}
+.product1 p {
+  text-align: center;
+  color: #b2bec3;
+  padding-top: 0 8px;
+}
+.product1 h6 {
+  font-size: 20px;
+  text-align: center;
+  color: #222f3e;
+  margin: 0;
+}
+.product1 ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 0;
+}
+.product1 li {
+  padding-top: 5px;
+}
+.fa {
+  font-size: 26px;
+  transition: 0.4s;
+  margin: 3px;
+}
+.checked {
+  color: #f78f3a;
+}
+.fa:hover {
+  transform: scale(1.3);
+  transition: 0.6s;
+}
+.product1 button {
+  text-align: center;
+  font-size: 24px;
+  color: #fff;
+  width: 100%;
+  padding: 15px;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  margin-top: 5px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.buy {
+  background-color: black;
+}
+
+.offer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+.offer img {
+  margin-inline: 22px;
+  width: 20%;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  padding: 15px;
+  background-color: rgb(36, 36, 36);
+  color: white;
+}
+.footer nav ul li {
+  list-style: none;
+}
+.footer nav ul li i {
+  display: inline-block;
+  margin: 0 10px;
+  color: #fff;
+  font-size: 20px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+.footer p {
+  margin: 0;
+  font-size: 14px;
+}
+
+@media screen and (max-width: 780px) {
+  .nav1 {
+    width: 100%;
+  }
+  .nav2 {
+    width: 100%;
+  }
+  .home img {
+    width: 100%;
+    height: 100vh;
+  }
+}
